@@ -1,7 +1,17 @@
 @import "tailwindcss";
 
+:root {
+  --lobby-bg-overlay: rgba(9, 13, 20, 0.6);
+  --lobby-panel: rgba(10, 16, 26, 0.56);
+  --lobby-border: rgba(255, 255, 255, 0.18);
+  --lobby-muted: rgba(214, 224, 238, 0.72);
+}
+
 body {
   margin: 0;
+  font-family: Inter, "Segoe UI", Roboto, sans-serif;
+  background: #1f2733;
+  color: #fff;
 }
 
 #root {

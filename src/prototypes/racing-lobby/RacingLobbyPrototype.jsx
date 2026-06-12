@@ -13,7 +13,6 @@ function RacingLobbyPrototype() {
 
   return (
     <PageShell
-      backToHome
       title="Prototipo: Lobby Principal"
       subtitle="Tela de entrada do jogo com navegação principal e modal de configuracao de corrida."
     >
